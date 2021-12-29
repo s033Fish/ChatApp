@@ -8,6 +8,7 @@ pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
 
-
+# 'Google Sign In'
+pod 'GoogleSignIn', '5.0.0'
 
 end

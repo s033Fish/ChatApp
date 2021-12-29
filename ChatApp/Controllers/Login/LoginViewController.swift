@@ -90,9 +90,9 @@ class LoginViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         scrollView.frame = view.bounds
-        let size = scrollView.width/3
-        imageView.frame = CGRect(x: (scrollView.width-size)/2, y: 20, width: size, height: size)
-        emailField.frame = CGRect(x: 30, y: imageView.bottom+10, width: scrollView.width-60, height: 52)
+        let size = scrollView.width/1.1
+        imageView.frame = CGRect(x: (scrollView.width-size)/2, y: 0, width: size, height: size)
+        emailField.frame = CGRect(x: 30, y: imageView.bottom+90, width: scrollView.width-60, height: 52)
         passwordField.frame = CGRect(x: 30, y: emailField.bottom+10, width: scrollView.width-60, height: 52)
         loginButton.frame = CGRect(x: 30, y: passwordField.bottom+10, width: scrollView.width-60, height: 52)
     }
