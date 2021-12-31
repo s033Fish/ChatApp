@@ -7,6 +7,7 @@ target 'ChatApp' do
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
+pod 'Firebase/Storage'
 
 # 'Google Sign In'
 pod 'GoogleSignIn', '5.0.0'
