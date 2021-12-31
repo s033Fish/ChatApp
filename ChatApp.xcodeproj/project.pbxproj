@@ -23,6 +23,7 @@
 		6467BFF727797FD000CAC7F0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6467BFF627797FD000CAC7F0 /* Extensions.swift */; };
 		6467BFFB277AEC5500CAC7F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6467BFFA277AEC5500CAC7F0 /* GoogleService-Info.plist */; };
 		6467BFFF277BCF7200CAC7F0 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6467BFFE277BCF7200CAC7F0 /* DatabaseManager.swift */; };
+		6467C001277D8EAC00CAC7F0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6467C000277D8EAC00CAC7F0 /* ChatViewController.swift */; };
 		DB5D5E243E944278EDB9314F /* Pods_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A58A28994FAA78485EA6A22 /* Pods_ChatApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		6467BFFA277AEC5500CAC7F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6467BFFC277BA16600CAC7F0 /* libFirebaseAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFirebaseAuth.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6467BFFE277BCF7200CAC7F0 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		6467C000277D8EAC00CAC7F0 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		9A86635A6628137CD5035C28 /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.debug.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FA504497CD3FFFD3E360953C /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,6 +158,7 @@
 				6467BFF527793ADE00CAC7F0 /* Login */,
 				6467BFF12779398200CAC7F0 /* NewConversationViewController.swift */,
 				6467BFF32779398F00CAC7F0 /* ProfileViewController.swift */,
+				6467C000277D8EAC00CAC7F0 /* ChatViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				6467BFF42779398F00CAC7F0 /* ProfileViewController.swift in Sources */,
 				6467BFB827791EF900CAC7F0 /* AppDelegate.swift in Sources */,
 				6467BFBA27791EF900CAC7F0 /* SceneDelegate.swift in Sources */,
+				6467C001277D8EAC00CAC7F0 /* ChatViewController.swift in Sources */,
 				6467BFFF277BCF7200CAC7F0 /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
